@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Pacifico Regular;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway Light;
+    src: url(../fonts/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: Raleway Regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: RalewayBold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway Extrabold;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+header {
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 995px;
+}
+nav {
+    display: flex;
+}
+div#logo {
+    margin-left: 11%;
+    margin-top: 0px;
+}
+div#logo a {
+    margin-top: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: Pacifico Regular;
+    font-size: 50px;
+    margin-top: 6%;
+}
+div.navigation {
+    margin-left: 30%;
+}
+div.navigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 6%;
+}
+div.navigation li a {
+    text-decoration: none;
+    font-family: RalewayBold;
+    color: black;
+    margin-left: 30px;
+    font-size: 16px;
+}
+h1 {
+    margin-left: 11%;
+    margin-top: 20%;
+    font-family: Raleway Extrabold;
+    font-size: 60px;
+}
+header p {
+    margin-left: 11%;
+    margin-right: 60%;
+    font-family: Raleway Regular;
+    font-size: 17px;
+    line-height: 34px;
+}
+#getFree a {
+    margin-left: 11%;
+    text-decoration: none;
+    font-family: Raleway Light;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    padding: 20px 25px;
+    background-color: #ff6033;
+}
