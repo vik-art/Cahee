@@ -1,0 +1,9 @@
+@mixin button {
+  padding: 20px 30px;
+  border: 1px solid transparent;
+
+  font-family: $main-font;
+  font-weight: 300;
+  color: $white-text-color;
+  text-transform: uppercase;
+}

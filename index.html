@@ -1,50 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Cahee</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <div id="logo">
-                <a href="#">Cahee</a>
-            </div>
-            <div class="navigation">
-                <ul>
-                    <li>
-                        <a href="#">HOME</a> </li>
-                    <li>
-                        <a href="#">ABOUT</a></li>
-                    <li>
-                        <a href="#">SERVICES</a></li>
-                    <li>
-                        <a href="#">GALLERY</a></li>
-                    <li>
-                        <a href="#">BLOG</a></li>
-                    <li>
-                        <a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <nav class="main-navigation">
+          <a href="#" class="logo">Cahee</a>
+          <ul class="main-nav">
+            <li class="navigation">
+              <a href="#" class="active">HOME</a>
+            </li>
+            <li class="navigation">
+              <a href="#">ABOUT</a>
+            </li>
+            <li class="navigation">
+              <a href="#">SERVICES</a>
+            </li>
+            <li class="navigation">
+              <a href="#">GALLERY</a>
+            </li>
+            <li class="navigation">
+              <a href="#">BLOG</a>
+            </li>
+            <li class="navigation">
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
         </nav>
-        <h1>Fresh Life</h1>
-        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco.</p>
-        <div id="getFree">
-            <a href="#">get free now</a></div>
+        <div class="text-content">
+          <h1>Fresh Life</h1>
+          <p class="main-text">
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          </p>
+          <a href="#" class="get-free">get free now</a>
+        </div>
+        <div class="scroll">
+          <img src="./img/scroll.png" alt="scroll" class="scroll-down" />
+        </div>
+      </div>
     </header>
-    <section>
-        <img src="./img/img.svg" alt="strawberry">
-        <h2>About us</h2>
-        <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-        <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+    <section class="about-us">
+      <div class="container about">
+        <div class="about-img">
+          <img src="./img/img-about.png" alt="fresh-fruit" class="about-img" />
+        </div>
+        <div class="about-text">
+          <h2>About us</h2>
+          <p>
+            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum.
+          </p>
+          <p>
+            Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error
+            sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore.
+          </p>
+        </div>
+      </div>
     </section>
-</body>
-
+    <section class="our-services">
+      <div class="container services">
+        <div class="services-examples">
+          <ul>
+            <li>
+              Online Shopping
+              <svg>
+                <use href="./img/symbol-defs.svg#icon"></use>
+              </svg>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

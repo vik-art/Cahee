@@ -1,0 +1,20 @@
+.about-us {
+  background-color: #00b1b1;
+  color: #ffffff;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-text {
+  h2 {
+    @extend %section-title;
+    margin-bottom: 35px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+}
